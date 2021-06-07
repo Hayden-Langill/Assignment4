@@ -9,9 +9,9 @@ document.getElementById('input2').addEventListener('click', color1)
 document.getElementById('input3').addEventListener('click', color2)
 
 function calculate () {
-  document.getElementById('input3').style.backgroundColor = "white";
-  document.getElementById('input2').style.backgroundColor = "white"; /* Sets your background color to white */
-  document.getElementById('input1').style.backgroundColor = "white";
+  document.getElementById('input3').style.backgroundColor = 'white'
+  document.getElementById('input2').style.backgroundColor = 'white' /* Sets your background color to white */
+  document.getElementById('input1').style.backgroundColor = 'white'
   number = document.getElementById('input1').value
   number2 = document.getElementById('input2').value // Gets the values of all 3 inputs
   number3 = document.getElementById('input3').value
@@ -23,19 +23,19 @@ function calculate () {
 }
 
 function color () {
-  document.getElementById('input1').style.backgroundColor = "lightblue"; // Sets color for when boxes are clicked
-  document.getElementById('input2').style.backgroundColor = "white";
-  document.getElementById('input3').style.backgroundColor = "white";
+  document.getElementById('input1').style.backgroundColor = 'lightblue' // Sets color for when boxes are clicked
+  document.getElementById('input2').style.backgroundColor = 'white'
+  document.getElementById('input3').style.backgroundColor = 'white'
 }
 
 function color1 () {
-  document.getElementById('input2').style.backgroundColor = "lightblue"; // Sets color for when boxes are clicked
-  document.getElementById('input1').style.backgroundColor = "white";
-  document.getElementById('input3').style.backgroundColor = "white";
+  document.getElementById('input2').style.backgroundColor = 'lightblue' // Sets color for when boxes are clicked
+  document.getElementById('input1').style.backgroundColor = 'white'
+  document.getElementById('input3').style.backgroundColor = 'white'
 }
 
 function color2 () {
-  document.getElementById('input3').style.backgroundColor = "lightblue"; // Sets color for when boxes are clicked
-  document.getElementById('input2').style.backgroundColor = "white";
-  document.getElementById('input1').style.backgroundColor = "white";
+  document.getElementById('input3').style.backgroundColor = 'lightblue' // Sets color for when boxes are clicked
+  document.getElementById('input2').style.backgroundColor = 'white'
+  document.getElementById('input1').style.backgroundColor = 'white'
 }
